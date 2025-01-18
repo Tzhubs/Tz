@@ -34,7 +34,7 @@ local function createWindow()
 
     MainFarmingTab:AddButton({
         Name = "Auto farm level",
-        Callback = function(function CheckLevel()
+        Callback = (function CheckLevel()
 local Lv = game:GetService("Players").LocalPlayer.Data.Level.Value
 if First_Sea then
 if Lv == 1 or Lv <= 9 or SelectMonster == "Bandit" or SelectArea == '' then -- Bandit
