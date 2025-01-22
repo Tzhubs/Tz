@@ -5,7 +5,7 @@ local Window = OrionLib:MakeWindow({
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "XScriptHub",
-    IntroText = "Slowed Studios"
+    IntroText = "Tellezs Hub Executed"
 });
 local CRD = Window:MakeTab({
     Name = "informações",
